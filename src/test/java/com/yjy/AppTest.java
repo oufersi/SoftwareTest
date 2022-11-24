@@ -19,8 +19,6 @@ public class AppTest
         int returnVal;
 
         try{
-            div(10, 0);
-
             returnVal = div(10, 2);
             assertTrue("result error", returnVal == 5);
         } catch(Exception e){
